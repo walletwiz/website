@@ -1,0 +1,56 @@
+/* Utility Classes */
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.pb-5 {
+    padding-bottom: 5rem;
+}
+
+.pt-6 {
+    padding-top: 6rem;
+}
+
+.pb-6 {
+    padding-bottom: 6rem;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "ABeeZee-Regular";
+    src: url("/assets/fonts/ABeeZee-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "ABeeZee-Italic";
+    src: url("/assets/fonts/ABeeZee-Italic.woff") format('woff');
+    font-style: italic;
+}
+
+* {
+    font-family: "ABeeZee-Regular";
+    border-radius: 0 !important;
+}
+
+.caption {
+    font-family: "ABeeZee-Italic"
+}
+
+/* Navbar classes */
+.navbar {
+    background-color: transparent;
+}
+
+/* Colour Classes */
+.btn-success {
+    background-color: #049C17 !important;
+    border-color: #049C17 !important;
+}
