@@ -32,16 +32,15 @@
 @font-face {
     font-family: "ABeeZee-Italic";
     src: url("/assets/fonts/ABeeZee-Italic.woff") format('woff');
-    font-style: italic;
 }
 
 * {
-    font-family: "ABeeZee-Regular";
+    font-family: "ABeeZee-Regular", sans-serif;
     border-radius: 0 !important;
 }
 
 .caption {
-    font-family: "ABeeZee-Italic"
+    font-family: "ABeeZee-Italic", sans-serif
 }
 
 /* Navbar classes */
