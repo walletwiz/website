@@ -1,6 +1,7 @@
 ---
 title: Home
 ---
+<script src="https://www.google.com/recaptcha/api.js?render=6LeL_6IUAAAAAGmtbTDdIVQYNNnSbBspuoLvIrIb"></script>
 <script>
     AOS.init();
 </script>
@@ -125,11 +126,19 @@ title: Home
                         <textarea type="email" class="form-control" id="inputMessage" name="inputMessage" rows="5" placeholder="Enter your message"></textarea>
                     </div>
                 </div>
+                <input type="hidden" value="" name="token" id="token" >
                 <div class="form-group row">
                     <div class="col-sm-10 ml-auto">
                         <button id="formSubmitButton" type="submit"class="btn btn-lg btn-success btn-block">Send</button>
                     </div>
                 </div>
+                <div class="form-group row">
+                    <div class="col-sm-10 ml-auto text-muted small">
+                        This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                    </div>
+                </div>
+
+
                 <div class="form-group row">
                     <div class="col-sm-10 ml-auto">
                         <div id="formSubmitSuccess" class="alert alert-success text-center" role="alert" style="display:none">
